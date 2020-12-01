@@ -1,0 +1,53 @@
+/* --------------------------------
+------------ Theme CSS ------------
+--------------------------------- */
+
+[*id="-error"]{
+	color:yellow;
+	float:left;
+	margin-top:-10px;
+}
+/* ----- menu ----- */
+#main-nav ul>li>a.active{
+	background-color:black;
+}
+/* ----- home part ----- */
+#home{
+	background-image:url('../images/banner.jpg');
+	background-size:cover;
+}
+/* ----- service part ----- */
+#service{
+	background-image:url('../images/service.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+}
+/* ----- review ----- */
+#review{
+	background-image:url('../images/stats.jpg');
+	background-size:cover;
+	background-position:fixed;
+}
+/* ----- contact part ----- */
+#contact{
+	background-image:url('../images/contact.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+}
+/* ----- social part ----- */
+#social-link ul li{
+	margin-right:12px;
+}
+#social-link ul>li>a{
+	height:2.4rem;
+	width:2.5rem;
+}
+/* ----- media query part ----- */
+@media (max-width: 576px){
+	.h5-sm{
+		font-size:1.25rem;
+	}
+	.h6-sm{
+		font-size:.8rem;
+	}
+}
